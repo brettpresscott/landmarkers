@@ -12,4 +12,21 @@
     <string name="forgot_password">Forgot Password</string>
     <string name="forgotPasswordParagraph">In order to change your password, we will need to identify you, please enter your email in the following field to receive an email on steps to take in order to change your email.</string>
     <string name="submit">Submit</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="settings">Settings</string>
+    <string name="distance">Distance</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="landmark">Landmark</string>\
+    <string-array name="distances">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+
+    <string-array name="landmarks">
+        <item>Entertainment</item>
+        <item>Historical</item>
+        <item>Mall</item>
+    </string-array>
+
+
 </resources>
