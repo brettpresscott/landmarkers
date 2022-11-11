@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Maplication</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgotPasswordParagraph">In order to change your password, we will need to identify you, please enter your email in the following field to receive an email on steps to take in order to change your email.</string>
+    <string name="submit">Submit</string>
+</resources>

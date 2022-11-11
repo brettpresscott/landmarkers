@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314583088264",
+    "project_id": "maplications-7f9d1",
+    "storage_bucket": "maplications-7f9d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314583088264:android:fef7f82e7c4a3fb84eb33d",
+        "android_client_info": {
+          "package_name": "com.example.maplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314583088264-c9kefbvrev4eokjnnb8ppv7kr4ikq00d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqOA7Xyf785blSY0x0S-T5yFBKj7jwNbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314583088264-c9kefbvrev4eokjnnb8ppv7kr4ikq00d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
