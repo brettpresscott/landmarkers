@@ -45,15 +45,6 @@ public class NotificationsFragment extends Fragment{
         mFirebaseDatabase = FirebaseDatabase.getInstance();
         myRef = mFirebaseDatabase.getReference("Users").child(userID);
 
-        if (binding.darkModeSwitch.isChecked())
-        {
-            darkMode = "dmon";
-        }
-        else
-        {
-            darkMode = "dmoff";
-        }
-
 
         ArrayAdapter<CharSequence> distanceAdapter = ArrayAdapter.createFromResource(getContext(), R.array.distances, android.R.layout.simple_spinner_item);
         distanceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -88,6 +79,14 @@ public class NotificationsFragment extends Fragment{
         binding.saveSettingsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (binding.darkModeSwitch.isChecked())
+                {
+                    darkMode = "dmon";
+                }
+                else
+                {
+                    darkMode = "dmoff";
+                }
                 AppliedSettiings appSet = new AppliedSettiings(darkMode, distanceScale, landmarksType);
                 myRef.child("Settings").setValue(appSet).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
